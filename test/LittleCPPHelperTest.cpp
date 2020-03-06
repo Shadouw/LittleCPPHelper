@@ -1,7 +1,7 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include <catch2/catch.hpp>
 
-#include <LittleCPPHelper/strings.h>
+#include <LittleCPPHelper/string.hpp>
 
 
 TEST_CASE("Trim some strings", "[LittleCPPHelper::strings]") {
