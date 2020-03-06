@@ -44,7 +44,6 @@ endif()
 
 add_executable ( ${projectname}_test
                  include/LittleCPPHelper/strings.h
-                 lib/catch2/catch.hpp
                  test/LittleCPPHelperTest.cpp
 )
 
