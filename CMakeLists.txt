@@ -43,7 +43,7 @@ endif()
 #
 
 add_executable ( ${projectname}_test
-                 include/LittleCPPHelper/strings.h
+                 include/LittleCPPHelper/string.hpp
                  test/LittleCPPHelperTest.cpp
 )
 
